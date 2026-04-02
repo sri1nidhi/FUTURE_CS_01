@@ -2,9 +2,9 @@
 Vulnerability Assessment Report of demo.testfire.net using Nmap, OWASP ZAP (passive scan), and Browser DevTools. Includes identified risks, screenshots, and remediation steps.
 
 
-# 🔐 Vulnerability Assessment Report
+# Vulnerability Assessment Report
 
-## 📌 Project Overview
+##  Project Overview
 This project presents a vulnerability assessment of a live web application:
 http://demo.testfire.net
 
@@ -12,7 +12,7 @@ The assessment was conducted using ethical, read-only techniques to identify com
 
 ---
 
-## 🎯 Objective
+##  Objective
 - Analyze a public website for security vulnerabilities
 - Classify risks (Low / Medium / High)
 - Explain issues in simple language
@@ -20,7 +20,7 @@ The assessment was conducted using ethical, read-only techniques to identify com
 
 ---
 
-## ⚙️ Tools Used
+##  Tools Used
 - Nmap (Port & Service Analysis)
 - OWASP ZAP (Passive Vulnerability Scanning)
 - Browser Developer Tools (Headers & Cookies Analysis)
@@ -28,7 +28,7 @@ The assessment was conducted using ethical, read-only techniques to identify com
 
 ---
 
-## 🔍 Methodology
+##  Methodology
 1. Performed port scanning using Nmap
 2. Conducted passive vulnerability scanning using OWASP ZAP
 3. Analyzed HTTP headers and cookies using browser DevTools
@@ -36,23 +36,23 @@ The assessment was conducted using ethical, read-only techniques to identify com
 
 ---
 
-## 🚨 Key Findings
+##  Key Findings
 
-### 🔴 High Risk
+###  High Risk
 - Missing CSRF Protection
 - Insecure Cookies (Missing SameSite / Secure attributes)
 
-### 🟡 Medium Risk
+###  Medium Risk
 - Missing Security Headers (CSP, X-Frame-Options, X-Content-Type-Options)
 - Information Disclosure (Server details exposed)
 - No HTTPS Enforcement
 
-### 🟢 Low Risk
+###  Low Risk
 - Open ports exposure
 
 ---
 
-## 🛠️ Recommendations
+##  Recommendations
 - Implement security headers (CSP, HSTS, X-Frame-Options)
 - Secure cookies with HttpOnly, Secure, and SameSite flags
 - Enable HTTPS across the application
@@ -61,7 +61,7 @@ The assessment was conducted using ethical, read-only techniques to identify com
 
 ---
 
-## 📸 Evidence
+## Evidence
 All findings are supported with screenshots:
 - Nmap scan results
 - OWASP ZAP alerts
@@ -69,17 +69,17 @@ All findings are supported with screenshots:
 
 ---
 
-## ⚠️ Scope & Ethics
+##  Scope & Ethics
 - Only public-facing pages were tested
 - No exploitation or harmful activity was performed
 - Passive scanning techniques only
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 The application contains several medium to high-risk vulnerabilities. Addressing these issues will significantly improve its overall security posture.
 
 ---
 
-## 👤 Author
+##  Author
 Nadiminte Srinidhi Reddy
